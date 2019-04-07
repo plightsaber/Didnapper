@@ -2152,6 +2152,72 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 608,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
             "self_switch_valid": true,
             "switch1_id": 83,
             "switch1_valid": true,
@@ -3358,6 +3424,72 @@
                 0,
                 0,
                 16
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 607,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
               ]
             },
             {
@@ -9127,6 +9259,72 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 609,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
             "self_switch_valid": true,
             "switch1_id": 84,
             "switch1_valid": true,
@@ -10333,6 +10531,72 @@
                 0,
                 0,
                 16
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 610,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
               ]
             },
             {
@@ -14718,6 +14982,219 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 340,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "Fairy+pixy"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "typeName": "RPG::AudioFile",
+                  "name": "Mhh mhh!",
+                  "pitch": 100,
+                  "volume": 80
+                }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "$game_system.message_event = -1"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Do you want to ransom them for 250 gold?"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "Yes",
+                  "No"
+                ],
+                2
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Yes"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 121,
+              "indent": 1,
+              "parameters": [
+                92,
+                92,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                8,
+                8,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 250,
+              "indent": 1,
+              "parameters": [
+                {
+                  "typeName": "RPG::AudioFile",
+                  "name": "006-System06",
+                  "pitch": 100,
+                  "volume": 80
+                }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 125,
+              "indent": 1,
+              "parameters": [
+                0,
+                0,
+                120
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 117,
+              "indent": 1,
+              "parameters": [
+                69
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 123,
+              "indent": 1,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "No"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 3,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
             "self_switch_valid": true,
             "switch1_id": 1,
             "switch1_valid": false,
@@ -14749,543 +15226,51 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 111,
+              "code": 355,
               "indent": 0,
               "parameters": [
-                1,
-                601,
-                1,
-                340,
-                0
+                "for i in 601..617"
               ]
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
+              "code": 655,
+              "indent": 0,
               "parameters": [
-                601,
-                601,
-                0,
-                0,
-                0
+                "   if $game_variables[i] == "
               ]
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
+              "code": 655,
               "indent": 0,
               "parameters": [
-                1,
-                602,
-                1,
-                340,
-                0
+                "$game_variables[340]"
               ]
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
+              "code": 655,
+              "indent": 0,
               "parameters": [
-                602,
-                602,
-                0,
-                0,
-                0
+                "    $game_variables[i] = 0"
               ]
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
+              "code": 655,
               "indent": 0,
               "parameters": [
-                1,
-                603,
-                1,
-                340,
-                0
+                "   end"
               ]
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                603,
-                603,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
+              "code": 655,
               "indent": 0,
               "parameters": [
-                1,
-                604,
-                1,
-                340,
-                0
+                "end"
               ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                604,
-                604,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                605,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                605,
-                605,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                606,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                606,
-                606,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                607,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                607,
-                607,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                608,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                608,
-                608,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                609,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                609,
-                609,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                610,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                610,
-                610,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                611,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                611,
-                611,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                612,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                612,
-                612,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                613,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                613,
-                613,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                614,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                614,
-                614,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                615,
-                1,
-                340,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                615,
-                615,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -16399,6 +16384,72 @@
           "through": false,
           "trigger": 0,
           "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 611,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
         }
       ],
       "x": 16,
@@ -17436,6 +17487,72 @@
                 0,
                 0,
                 16
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 612,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
               ]
             },
             {
@@ -18529,6 +18646,72 @@
           "through": false,
           "trigger": 0,
           "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 613,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
         }
       ],
       "x": 2,
@@ -19594,6 +19777,72 @@
           "through": false,
           "trigger": 0,
           "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 614,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
         }
       ],
       "x": 8,
@@ -20631,6 +20880,72 @@
                 0,
                 0,
                 16
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 615,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
               ]
             },
             {
@@ -22082,6 +22397,72 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 604,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
             "self_switch_valid": true,
             "switch1_id": 79,
             "switch1_valid": true,
@@ -23436,6 +23817,72 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 601,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
             "self_switch_valid": true,
             "switch1_id": 76,
             "switch1_valid": true,
@@ -24650,6 +25097,72 @@
                 0,
                 0,
                 16
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 603,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
               ]
             },
             {
@@ -25926,6 +26439,72 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 602,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
             "self_switch_valid": true,
             "switch1_id": 77,
             "switch1_valid": true,
@@ -27167,6 +27746,72 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 605,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
             "self_switch_valid": true,
             "switch1_id": 80,
             "switch1_valid": true,
@@ -28373,6 +29018,72 @@
                 0,
                 0,
                 16
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 85,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 606,
+            "variable_valid": true,
+            "variable_value": 17
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "FairyPixyDID",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                340,
+                340,
+                0,
+                0,
+                17
               ]
             },
             {

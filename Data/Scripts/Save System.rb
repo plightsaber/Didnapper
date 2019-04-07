@@ -521,12 +521,12 @@ class Scene_File
     end
     @help_text = text
     $game_temp.last_file_index = 0
-    latest_time = Time.at(0)
+    latest_time = Time.utc(1970)
     (0...CPSL::Save_number).each {|i|
       filename = make_filename(i)
       if FileTest.exist?(filename)
         file = File.open(filename, "r")
-        if file.mtime > latest_time
+        if (latest_time.nil?) || (file.mtime > latest_time)
           latest_time = file.mtime
           $game_temp.last_file_index = i
         end

@@ -71,6 +71,7 @@ module RPG
       when 173 then return 250 # Dispell
       when 174 then return 350 # Greater Dispell
       when 175 then return 300 # Mass Haste
+      when 185 then return 1000 # Fake Mob Rush (is replaced after purchase)
       when 205 then return 175 # Rope Collector (Passive)
       end
       return 100
@@ -84,12 +85,13 @@ module RPG
       # when skill_id then return level
       when 1 then return 5
       when 2 then return 10
-      when 3 then return 15
+      when 3 then return 12
       when 57 then return 2
       when 81 then return 8
       when 84 then return 10
       when 87 then return 3
       when 174 then return 10
+      when 185 then return 15
       end
       return 1
     end
@@ -103,7 +105,7 @@ module RPG
       # use
       # when class_id then return [skill id's here]
       # 2=Kidnapper, 3= Adv.Kidnapper, 4=Thief, 8=Mage 11=Lancer
-      when 2 then return [69, 81, 83, 84, 87, 103, 130, 133, 134, 205]
+      when 2 then return [69, 81, 83, 84, 87, 103, 130, 133, 134, 185, 205]
       when 4 then return [69, 87, 103, 130, 133, 134, 175]
       when 8 then return [1, 2, 3, 4, 39, 150, 156, 173, 174, 175]
       when 11 then return [87, 103, 130, 134, 141]

@@ -7107,6 +7107,74 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 108,
+              "indent": 1,
+              "parameters": [
+                "Forbid items on Hard difficulty"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                1,
+                160,
+                0,
+                2,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                716,
+                716,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 2,
+              "parameters": [
+                "$game_variables[717] = \\"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 655,
+              "indent": 2,
+              "parameters": [
+                "\"Don't waste items on a practice\\"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 655,
+              "indent": 2,
+              "parameters": [
+                " fight!\""
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 301,
               "indent": 1,
               "parameters": [
@@ -7114,6 +7182,50 @@
                 false,
                 false
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                1,
+                160,
+                0,
+                2,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                716,
+                716,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 2,
+              "parameters": [
+                "$game_variables[717] = ''"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 1,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -7392,8 +7504,48 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 101,
+              "code": 111,
               "indent": 2,
+              "parameters": [
+                1,
+                714,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "\\n[1], you really need to be more careful."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "It's way too easy to tie you up when you're stunned."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 411,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 3,
               "parameters": [
                 "You still need to improve, \\n[1]. "
               ]
@@ -7401,10 +7553,22 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 401,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 "Keep practicing."
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 2,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -7914,8 +8078,20 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 231,
+              "code": 111,
               "indent": 3,
+              "parameters": [
+                1,
+                714,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
               "parameters": [
                 25,
                 "FSAthenaL2Black",
@@ -7932,7 +8108,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 231,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 20,
                 "FSAthenaL2",
@@ -7949,7 +8125,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 231,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 21,
                 "FSAthenaLTired",
@@ -7966,7 +8142,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 101,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 "Thanks."
               ]
@@ -7974,7 +8150,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 231,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 21,
                 "FSAthenaLConfident",
@@ -7991,7 +8167,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 101,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 "You were a worthy opponent. I look forward to a "
               ]
@@ -7999,10 +8175,286 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 401,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 "rematch."
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                1,
+                714,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                25,
+                "FSAthenaL2Black",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                20,
+                "FSAthenaL2",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSAthenaLSmile",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "That was very impressive."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSAthenaLConfident",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "But worry not, I'll figure out how to counter this, "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "just you wait!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 4,
+              "parameters": [
+                714,
+                714,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                1,
+                714,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                25,
+                "FSAthenaL2Black",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                20,
+                "FSAthenaL2",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSAthenaLAngryTired",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "I agreed to be your practice partner for fighting, not "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "for tying! This was way tighter than necessary!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSAthenaLAngry2",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "Better watch out, I won't be gentle with you next "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "time you lose!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 4,
+              "parameters": [
+                714,
+                714,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 3,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -13050,6 +13502,74 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 108,
+              "indent": 1,
+              "parameters": [
+                "Forbid items on Hard difficulty"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                1,
+                160,
+                0,
+                2,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                716,
+                716,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 2,
+              "parameters": [
+                "$game_variables[717] = \\"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 655,
+              "indent": 2,
+              "parameters": [
+                "\"Don't waste items on a practice\\"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 655,
+              "indent": 2,
+              "parameters": [
+                " fight!\""
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 301,
               "indent": 1,
               "parameters": [
@@ -13057,6 +13577,50 @@
                 false,
                 false
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                1,
+                160,
+                0,
+                2,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                716,
+                716,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 2,
+              "parameters": [
+                "$game_variables[717] = ''"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 1,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -14764,8 +15328,20 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 231,
+              "code": 111,
               "indent": 3,
+              "parameters": [
+                1,
+                714,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
               "parameters": [
                 25,
                 "FSCarolL Black",
@@ -14782,7 +15358,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 231,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 20,
                 "FSCarolL",
@@ -14799,7 +15375,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 231,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 21,
                 "FSCarolL  whatever",
@@ -14816,7 +15392,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 106,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 4
               ]
@@ -14824,7 +15400,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 232,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 25,
                 3,
@@ -14841,7 +15417,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 101,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 "Aw, you didn't have to let me go..."
               ]
@@ -14849,7 +15425,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 231,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 21,
                 "FSCarolL alrightIgiveup",
@@ -14866,10 +15442,320 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 101,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 "Oh well. I'll just have to get you back next time!"
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                1,
+                714,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                25,
+                "FSCarolL Black",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                150,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                20,
+                "FSCarolL",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSCarolL  Ooh",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 106,
+              "indent": 4,
+              "parameters": [
+                4
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 232,
+              "indent": 4,
+              "parameters": [
+                25,
+                3,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "Wow, I didn't see that coming!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSCarolL  Smile1b",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "You're getting really good at this kidnapping stuff!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 4,
+              "parameters": [
+                714,
+                714,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                1,
+                714,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                25,
+                "FSCarolL Black",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                150,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                20,
+                "FSCarolL",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSCarolL  whatever",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 106,
+              "indent": 4,
+              "parameters": [
+                4
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 232,
+              "indent": 4,
+              "parameters": [
+                25,
+                3,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "You've tied me super tight only to let me go just like "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "that? Such a waste of a good tie!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSCarolL pout",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "I'd never do that to you!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 4,
+              "parameters": [
+                714,
+                714,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 3,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -25075,6 +25961,124 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 207,
+              "indent": 1,
+              "parameters": [
+                27,
+                2
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "\\e[0]Hey, that's cheating!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "\\e[27]Against you? I need all the advantages I can "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "get."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 207,
+              "indent": 1,
+              "parameters": [
+                27,
+                2
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 106,
+              "indent": 1,
+              "parameters": [
+                8
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 108,
+              "indent": 1,
+              "parameters": [
+                "Forbid items on Hard difficulty"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                1,
+                160,
+                0,
+                2,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                716,
+                716,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 2,
+              "parameters": [
+                "$game_variables[717] = \\"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 655,
+              "indent": 2,
+              "parameters": [
+                "\"Don't waste items on a practice\\"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 655,
+              "indent": 2,
+              "parameters": [
+                " fight!\""
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 301,
               "indent": 1,
               "parameters": [
@@ -25082,6 +26086,50 @@
                 false,
                 false
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                1,
+                160,
+                0,
+                2,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                716,
+                716,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 2,
+              "parameters": [
+                "$game_variables[717] = ''"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 1,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -25996,8 +27044,20 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 231,
+              "code": 111,
               "indent": 3,
+              "parameters": [
+                1,
+                714,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
               "parameters": [
                 25,
                 "FSEvelynLBlack",
@@ -26014,7 +27074,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 231,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 20,
                 "FSEvelynL",
@@ -26031,7 +27091,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 231,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 21,
                 "FSEvelynLSmile",
@@ -26048,7 +27108,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 101,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 "Thank you..."
               ]
@@ -26056,7 +27116,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 231,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 21,
                 "FSEvelynLUnsure",
@@ -26073,7 +27133,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 101,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 "I hadn't ever thought I would praise a kidnapper for "
               ]
@@ -26081,7 +27141,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 401,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 "her skill, but I don't think I could have escaped that on "
               ]
@@ -26089,10 +27149,278 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 401,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 "my own. You are far more cunning than you seem."
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                1,
+                714,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                25,
+                "FSEvelynLBlack",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                20,
+                "FSEvelynL",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSEvelynLSurprised",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "That really was something else..."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSEvelynLUnsure",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "I didn't even know it was possible to use rope like "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "this. How can I compete against that?"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 4,
+              "parameters": [
+                714,
+                714,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                1,
+                714,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                25,
+                "FSEvelynLBlack",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                20,
+                "FSEvelynL",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSEvelynLAnnoyed",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "Was it really necessary to tie me up this tight?"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 4,
+              "parameters": [
+                21,
+                "FSEvelynLSerious",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "I think you're enjoying this more than you're willing "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "to admit..."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 4,
+              "parameters": [
+                714,
+                714,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 3,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -30620,8 +31948,18 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 355,
+              "code": 111,
               "indent": 1,
+              "parameters": [
+                0,
+                552,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 2,
               "parameters": [
                 "$scene = SkillShop.new([81, 83, 84, "
               ]
@@ -30629,10 +31967,173 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 655,
-              "indent": 1,
+              "indent": 2,
               "parameters": [
                 "103, 134, 205])"
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 2,
+              "parameters": [
+                "$scene = SkillShop.new([81, 83, 84, "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 655,
+              "indent": 2,
+              "parameters": [
+                "103, 134, 185, 205])"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 106,
+              "indent": 1,
+              "parameters": [
+                10
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                4,
+                1,
+                2,
+                185
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                552,
+                552,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 318,
+              "indent": 2,
+              "parameters": [
+                1,
+                1,
+                185
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "You have unlocked the \\c[4]Mob Rush\\c[0] skill!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "This skill will only appear in your skill list when you "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "have 2 or more party members during battle."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "The user deals damage to all enemies, then up to 4 "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "weakened enemies are subdued, depending on the "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "number of available party members."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "The skill can only be used once a turn, and it has a "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "cooldown of 2-4 turns, depending on the game "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "difficulty."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 1,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",

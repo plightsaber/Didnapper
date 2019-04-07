@@ -38,8 +38,8 @@ class Scene_Battle
     @actor_index = -1
     @active_battler = nil
     # Enable party command window
-    @party_command_window.active = true
-    @party_command_window.visible = true
+#Kendrian    @party_command_window.active = true
+#Kendrian    @party_command_window.visible = true
     # Disable actor command window
     @actor_command_window.active = false
     @actor_command_window.visible = false
@@ -57,6 +57,8 @@ class Scene_Battle
   # * Frame Update (party command phase)
   #--------------------------------------------------------------------------
   def update_phase2
+    start_phase3 #Kendrian
+    return #Kendrian
     # If C button was pressed
     if Input.trigger?(Input::C)
       # Branch by party command window cursor position

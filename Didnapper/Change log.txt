@@ -1,0 +1,34 @@
+New in v1.8.2
+-Added Android Private Cell fix
+-Made Android support the Windows version of the game, so we don't need two separate versions
+-Added fairy/pixie enemies to the Lost Forest
+-Added new academy mage event in Florian
+-Implemented FanaTheWanderer’s mod into the base game. The mod adds Suki’s outfits to the escape system
+-Added the Mob Rush skill, which can be bought from Francis in the lair
+-Practice battles in the guild now scale with your level and game difficulty, and have improved AI
+-Added more facial expressions to Risette, and added facesets to the Epilogue scene she is in
+-Added additional “Harder” escape training difficulty
+-Made the progress bar flash red or green when you input during escape struggle minigame
+-Updated Genie's force capture skill so you get the current Subdue animation instead of the 1.6 one.
+-Made error messages for the Subdue skill use the enemy’s name like it does with party members
+-Removed Fight/Escape menu at the beginning of a battle, since you can only choose Fight anyway
+-Compressed and optimized some code to reduce lag in some places
+-Fixed bugs related to repeating the slaver camp sidequest
+-Fixed time-related save glitch
+-Fixed and re-implemented Rescue skill explanation prompt
+-Fixed 1-miss ambush battle on pirate ship
+-Fixed that floating church door in Florian
+-Fixed an issue with one of the April Fool’s events
+-Some other minor stuff here and there
+
+
+New in v1.8.1
+-Added Picture Book
+-Added two more scenes to the epilogue
+-Added feature to reset special events, such as the slaver camp sidequest and the encounter with the mermaid
+-Added and changed some background music and music effects
+-Made it possible to escape with Athena and Evelyn in the Florian Castle dungeon
+-Made changes to the stats and skills of some enemies (the 1st year mages are for example slightly weaker now)
+-Updated some graphics, including sprites that didn't match their battlers and facesets
+-Some other minor tweaks and changes
+-Fixed the vast majority of reported bugs. Here's a list of the fixed bugs: https://docs.google.com/document/d/1nYtXhQ_qADxdv38XysuLBVxfeVecTEDOnJFFSNljT40/edit?usp=sharing

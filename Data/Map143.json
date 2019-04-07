@@ -1454,7 +1454,7 @@
               "indent": 1,
               "parameters": [
                 23,
-                "FSRisetteRInterested",
+                "FSRisetteRWorried",
                 0,
                 0,
                 0,
@@ -1817,6 +1817,23 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 1,
+              "parameters": [
+                23,
+                "FSRisetteRSmile",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 232,
               "indent": 1,
               "parameters": [
@@ -1855,6 +1872,23 @@
               "indent": 1,
               "parameters": [
                 "It's okay. I think I have a few leads."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 1,
+              "parameters": [
+                23,
+                "FSRisetteRSmile2",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
               ]
             },
             {
@@ -1992,6 +2026,23 @@
               "indent": 1,
               "parameters": [
                 "That's Leroy!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 1,
+              "parameters": [
+                23,
+                "FSRisetteRSerious",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
               ]
             },
             {
@@ -2367,6 +2418,23 @@
               "indent": 1,
               "parameters": [
                 "I..."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 1,
+              "parameters": [
+                23,
+                "FSRisetteRAngry",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
               ]
             },
             {
@@ -2788,7 +2856,7 @@
               "indent": 2,
               "parameters": [
                 23,
-                "FSRisetteRInterested",
+                "FSRisetteRSerious",
                 0,
                 0,
                 0,
@@ -2910,6 +2978,23 @@
               "indent": 2,
               "parameters": [
                 "Okay. You... you are going to tell me everything."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 2,
+              "parameters": [
+                23,
+                "FSRisetteRAngry",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
               ]
             },
             {
@@ -3118,6 +3203,23 @@
               "indent": 2,
               "parameters": [
                 "talk!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 2,
+              "parameters": [
+                23,
+                "FSRisetteRSerious",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
               ]
             },
             {

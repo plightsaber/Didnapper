@@ -68,7 +68,7 @@ class PrivateCellDamselCilia < PrivateCellDamsel
 		@images['eyes'] = list
 		
 		#misc
-		list = {'blush1' => [31,'PCCilia_blush',0,0,-250,0,100,100,255,0],'blush2' => [31,'PCCilia_blush',0,0,-250,0,100,100,255,0],'tears' => [35,'PCCilia_tears',0,0,-250,0,100,100,255,0]}
+		list = {'blush1' => [31,'PCCilia_blush1',0,0,-250,0,100,100,255,0],'blush2' => [31,'PCCilia_blush2',0,0,-250,0,100,100,255,0],'tears' => [35,'PCCilia_tears',0,0,-250,0,100,100,255,0]}
 		@images['misc'] = list
 		
     #accessories

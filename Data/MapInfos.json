@@ -655,7 +655,7 @@
     "order": 100,
     "parent_id": 99,
     "scroll_x": 640,
-    "scroll_y": 720
+    "scroll_y": 467
   },
   "165": {
     "typeName": "RPG::MapInfo",
@@ -997,7 +997,7 @@
     "order": 175,
     "parent_id": 0,
     "scroll_x": 480,
-    "scroll_y": 467
+    "scroll_y": 811
   },
   "2": {
     "typeName": "RPG::MapInfo",
@@ -1024,7 +1024,7 @@
     "order": 187,
     "parent_id": 199,
     "scroll_x": 800,
-    "scroll_y": 1132
+    "scroll_y": 706
   },
   "201": {
     "typeName": "RPG::MapInfo",
@@ -1100,7 +1100,7 @@
   },
   "209": {
     "typeName": "RPG::MapInfo",
-    "expanded": false,
+    "expanded": true,
     "name": "Ruined guild",
     "order": 25,
     "parent_id": 39,
@@ -1302,7 +1302,7 @@
     "name": "Guild Captives' Cell - ruined",
     "order": 27,
     "parent_id": 209,
-    "scroll_x": 480,
+    "scroll_x": 401,
     "scroll_y": 240
   },
   "23": {
@@ -1406,7 +1406,7 @@
   },
   "24": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Beach cave outside",
     "order": 128,
     "parent_id": 23,
@@ -1550,7 +1550,7 @@
   },
   "254": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Florian 3-2",
     "order": 271,
     "parent_id": 362,
@@ -2580,8 +2580,8 @@
     "name": "Florian",
     "order": 240,
     "parent_id": 0,
-    "scroll_x": 2755,
-    "scroll_y": 2959
+    "scroll_x": 6870,
+    "scroll_y": 1387
   },
   "358": {
     "typeName": "RPG::MapInfo",
@@ -2801,7 +2801,7 @@
   },
   "38": {
     "typeName": "RPG::MapInfo",
-    "expanded": false,
+    "expanded": true,
     "name": "Guild Captives' Cell",
     "order": 17,
     "parent_id": 39,
@@ -2810,7 +2810,7 @@
   },
   "380": {
     "typeName": "RPG::MapInfo",
-    "expanded": false,
+    "expanded": true,
     "name": "Florian 1-0",
     "order": 256,
     "parent_id": 357,
@@ -2847,11 +2847,11 @@
   "384": {
     "typeName": "RPG::MapInfo",
     "expanded": false,
-    "name": "Florian 1-4",
+    "name": "Florian 1-4 (Church)",
     "order": 260,
     "parent_id": 380,
     "scroll_x": 480,
-    "scroll_y": 480
+    "scroll_y": 467
   },
   "385": {
     "typeName": "RPG::MapInfo",
@@ -2909,7 +2909,7 @@
   },
   "390": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Florian 4-0",
     "order": 279,
     "parent_id": 357,
@@ -3018,11 +3018,11 @@
   "400": {
     "typeName": "RPG::MapInfo",
     "expanded": false,
-    "name": "Florian 6-0",
+    "name": "Florian 6-0 (upper graveyard)",
     "order": 290,
     "parent_id": 357,
     "scroll_x": 480,
-    "scroll_y": 480
+    "scroll_y": 467
   },
   "401": {
     "typeName": "RPG::MapInfo",
@@ -3368,7 +3368,7 @@
   },
   "436": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "3rd floor",
     "order": 56,
     "parent_id": 34,
@@ -3629,7 +3629,7 @@
   },
   "462": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Burglar house Florian",
     "order": 307,
     "parent_id": 357,
@@ -3764,7 +3764,7 @@
   },
   "476": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Florian - Castle Florian",
     "order": 309,
     "parent_id": 357,
@@ -3971,7 +3971,7 @@
   },
   "497": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Belbasa Town - NW",
     "order": 497,
     "parent_id": 491,
@@ -4043,7 +4043,7 @@
   },
   "503": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Boss map",
     "order": 512,
     "parent_id": 491,
@@ -4052,7 +4052,7 @@
   },
   "504": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Belbasa Ruins - Cells",
     "order": 522,
     "parent_id": 491,
@@ -4740,7 +4740,7 @@
     "name": "Guardhouse ext.",
     "order": 486,
     "parent_id": 43,
-    "scroll_x": 464,
+    "scroll_x": 526,
     "scroll_y": 240
   },
   "65": {

@@ -20,7 +20,7 @@ begin
   $scene = Scene_Movie.close_scene #closes active movie window
   $scene = Scene_Movie.new("IntroO")
 =end
-  if RUBY_PLATFORM.include? "mswin"
+ if RUBY_PLATFORM.include? "mswin"
     Graphics.play_movie( "Movies/IntroR.wmv" )
   end
   $scene = Scene_Title.new

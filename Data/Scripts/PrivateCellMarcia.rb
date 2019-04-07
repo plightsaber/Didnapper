@@ -74,7 +74,7 @@ class PrivateCellDamselMarcia < PrivateCellDamsel
     @images['accessories']['outfit1'] = list
     
 		#misc
-		list = {'blush1' => [31,'PCMarcia_blush1',0,0,0,0,100,100,255,0],'blush2' => [31,'PCMarcia_blush1',0,0,0,0,100,100,255,0],'tears' => [35,'PCMarcia_tears',0,0,0,0,100,100,255,0]}
+		list = {'blush1' => [31,'PCMarcia_blush1',0,0,0,0,100,100,255,0],'blush2' => [31,'PCMarcia_blush2',0,0,0,0,100,100,255,0],'tears' => [35,'PCMarcia_tears',0,0,0,0,100,100,255,0]}
 		@images['misc'] = list
 
 		

@@ -1,3 +1,4 @@
+=begin
 def pc_regen
 	$privateCellDamsels[$currentPrivateCellDamsel].regeneratePicture
 end
@@ -764,5 +765,5 @@ class PrivateCellDamsel
 		$data_common_events[96].list = [RPG::EventCommand.new(231,231,[30,'pc_canvas',0,0,0,0,100,100,255,0]),endEvent]
   end
 end
-
+=end
 

@@ -80,7 +80,7 @@ class PrivateCellDamselSuki < PrivateCellDamsel
 
     
 		#misc
-		list = {'blush1' => [31,'PCSuki_blush',0,0,0,0,100,100,255,0],'blush2' => [31,'PCSuki_blush',0,0,0,0,100,100,255,0],'tears' => [35,'PCSuki_tears',0,0,0,0,100,100,255,0]}
+		list = {'blush1' => [31,'PCSuki_blush1',0,0,0,0,100,100,255,0],'blush2' => [31,'PCSuki_blush2',0,0,0,0,100,100,255,0],'tears' => [35,'PCSuki_tears',0,0,0,0,100,100,255,0]}
 		@images['misc'] = list
 		
     #To force a certain face, simply replace nil in proc with method(:face_facename). Supported facenames can be found in Face Library.

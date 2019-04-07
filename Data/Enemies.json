@@ -8042,7 +8042,7 @@
     "armor_id": 0,
     "atk": 10,
     "battler_hue": 0,
-    "battler_name": "AcademyStudent2nd4DID",
+    "battler_name": "AcademyStudent3rd2DID",
     "dex": 30,
     "element_ranks": {
       "typeName": "Table",
@@ -8084,7 +8084,7 @@
     "maxhp": 475,
     "maxsp": 100,
     "mdef": 30,
-    "name": "Second-year 4",
+    "name": "Third-year",
     "pdef": 20,
     "state_ranks": {
       "typeName": "Table",
@@ -8188,11 +8188,11 @@
         "skill_id": 1
       }
     ],
-    "agi": 25,
+    "agi": 40,
     "animation1_id": 0,
     "animation2_id": 0,
     "armor_id": 0,
-    "atk": 20,
+    "atk": 15,
     "battler_hue": 0,
     "battler_name": "AuroraDID",
     "dex": 30,
@@ -8231,9 +8231,9 @@
     "exp": 15,
     "gold": 0,
     "id": 55,
-    "int": 65,
+    "int": 42,
     "item_id": 0,
-    "maxhp": 450,
+    "maxhp": 1100,
     "maxsp": 100,
     "mdef": 20,
     "name": "Aurora Midnight",
@@ -8340,7 +8340,7 @@
         "skill_id": 1
       }
     ],
-    "agi": 25,
+    "agi": 45,
     "animation1_id": 0,
     "animation2_id": 0,
     "armor_id": 0,
@@ -8383,11 +8383,11 @@
     "exp": 15,
     "gold": 0,
     "id": 56,
-    "int": 65,
+    "int": 48,
     "item_id": 0,
-    "maxhp": 450,
+    "maxhp": 1300,
     "maxsp": 100,
-    "mdef": 20,
+    "mdef": 25,
     "name": "Esper Midnight",
     "pdef": 15,
     "state_ranks": {
@@ -8460,7 +8460,7 @@
       "ysize": 1,
       "zsize": 1
     },
-    "str": 15,
+    "str": 20,
     "treasure_prob": 100,
     "weapon_id": 0
   },
@@ -9112,11 +9112,11 @@
       "typeName": "Table",
       "data": [
         0,
-        2,
         3,
         3,
-        4,
-        4,
+        3,
+        3,
+        3,
         3,
         4,
         3,
@@ -26364,7 +26364,7 @@
         "condition_turn_a": 0,
         "condition_turn_b": 1,
         "kind": 0,
-        "rating": 4,
+        "rating": 3,
         "skill_id": 1
       },
       {
@@ -26377,7 +26377,7 @@
         "condition_turn_b": 1,
         "kind": 1,
         "rating": 5,
-        "skill_id": 7
+        "skill_id": 25
       },
       {
         "typeName": "RPG::Enemy::Action",
@@ -26389,31 +26389,7 @@
         "condition_turn_b": 1,
         "kind": 1,
         "rating": 5,
-        "skill_id": 34
-      },
-      {
-        "typeName": "RPG::Enemy::Action",
-        "basic": 0,
-        "condition_hp": 100,
-        "condition_level": 1,
-        "condition_switch_id": 0,
-        "condition_turn_a": 0,
-        "condition_turn_b": 1,
-        "kind": 1,
-        "rating": 4,
-        "skill_id": 38
-      },
-      {
-        "typeName": "RPG::Enemy::Action",
-        "basic": 0,
-        "condition_hp": 100,
-        "condition_level": 1,
-        "condition_switch_id": 0,
-        "condition_turn_a": 0,
-        "condition_turn_b": 1,
-        "kind": 1,
-        "rating": 5,
-        "skill_id": 28
+        "skill_id": 39
       },
       {
         "typeName": "RPG::Enemy::Action",
@@ -26462,18 +26438,6 @@
         "kind": 1,
         "rating": 4,
         "skill_id": 98
-      },
-      {
-        "typeName": "RPG::Enemy::Action",
-        "basic": 0,
-        "condition_hp": 100,
-        "condition_level": 1,
-        "condition_switch_id": 305,
-        "condition_turn_a": 0,
-        "condition_turn_b": 1,
-        "kind": 1,
-        "rating": 4,
-        "skill_id": 99
       },
       {
         "typeName": "RPG::Enemy::Action",
@@ -26556,7 +26520,7 @@
         "condition_turn_a": 0,
         "condition_turn_b": 1,
         "kind": 1,
-        "rating": 4,
+        "rating": 3,
         "skill_id": 118
       },
       {
@@ -26568,17 +26532,29 @@
         "condition_turn_a": 0,
         "condition_turn_b": 1,
         "kind": 1,
-        "rating": 3,
+        "rating": 2,
+        "skill_id": 118
+      },
+      {
+        "typeName": "RPG::Enemy::Action",
+        "basic": 0,
+        "condition_hp": 20,
+        "condition_level": 1,
+        "condition_switch_id": 348,
+        "condition_turn_a": 0,
+        "condition_turn_b": 1,
+        "kind": 1,
+        "rating": 1,
         "skill_id": 118
       }
     ],
-    "agi": 45,
+    "agi": 40,
     "animation1_id": 0,
     "animation2_id": 14,
     "armor_id": 0,
-    "atk": 10,
+    "atk": 15,
     "battler_hue": 0,
-    "battler_name": "AcademyStudent2nd4",
+    "battler_name": "AcademyStudent3rd2",
     "dex": 30,
     "element_ranks": {
       "typeName": "Table",
@@ -26600,9 +26576,9 @@
         3,
         3,
         3,
-        2,
+        3,
         4,
-        1,
+        2,
         3,
         3
       ],
@@ -26612,37 +26588,37 @@
       "zsize": 1
     },
     "eva": 0,
-    "exp": 0,
+    "exp": 8,
     "gold": 0,
     "id": 133,
-    "int": 16,
+    "int": 42,
     "item_id": 0,
-    "maxhp": 475,
+    "maxhp": 1100,
     "maxsp": 100,
-    "mdef": 30,
-    "name": "Second-year 4",
-    "pdef": 20,
+    "mdef": 20,
+    "name": "Third-year",
+    "pdef": 15,
     "state_ranks": {
       "typeName": "Table",
       "data": [
         0,
         6,
-        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
         4,
         3,
         3,
         3,
         3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        1,
+        2,
         1,
         1,
         1,
@@ -26665,11 +26641,11 @@
         3,
         3,
         3,
-        3,
-        3,
-        3,
-        3,
-        3,
+        4,
+        4,
+        1,
+        4,
+        4,
         3,
         3,
         3,
@@ -26692,7 +26668,7 @@
       "ysize": 1,
       "zsize": 1
     },
-    "str": 10,
+    "str": 15,
     "treasure_prob": 100,
     "weapon_id": 0
   },
@@ -33497,7 +33473,7 @@
         "condition_turn_b": 1,
         "kind": 1,
         "rating": 3,
-        "skill_id": 19
+        "skill_id": 23
       },
       {
         "typeName": "RPG::Enemy::Action",
@@ -33509,7 +33485,7 @@
         "condition_turn_b": 1,
         "kind": 1,
         "rating": 2,
-        "skill_id": 25
+        "skill_id": 26
       },
       {
         "typeName": "RPG::Enemy::Action",
@@ -33620,13 +33596,13 @@
       "typeName": "Table",
       "data": [
         0,
-        2,
         3,
-        2,
+        3,
+        3,
+        3,
+        4,
         3,
         6,
-        2,
-        4,
         2,
         3,
         3,

@@ -111,7 +111,7 @@ JCDID
 Aaron Krogh
 Sieg
 Kendrian
-Cherlotte
+Charlotte
 
 -Lead Writer-
 ImilianArticuno
@@ -139,6 +139,11 @@ Kendrian
 LostOneZero
 Natsuko-Hiragi
 
+-Mod content contributors-
+FanaTheWanderer
+Ghirahdorf
+Beneficial Badger
+
 -Special Thanks-
 Wychkith
 All the great Closed Beta testers
@@ -153,6 +158,7 @@ Leon's Shopping System
 Scene_Credits - Emily_Konichi
 Improved Save - gerkrt/gerrtunk
 Untouchable Actor States - Kendrian
+PrivateCell - Kreelud
 
 
 

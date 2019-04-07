@@ -68,7 +68,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 		@images['eyes'] = list
 		
 		#misc
-		list = {'blush1' => [31,'PCSucc_blush',0,0,0,0,100,100,255,0],'blush2' => [31,'PCSucc_blush',0,0,0,0,100,100,255,0],'tears' => [35,'blank',0,0,0,0,100,100,255,0]}
+		list = {'blush1' => [31,'PCSucc_blush1',0,0,0,0,100,100,255,0],'blush2' => [31,'PCSucc_blush2',0,0,0,0,100,100,255,0],'tears' => [35,'blank',0,0,0,0,100,100,255,0]}
 		@images['misc'] = list
 		
 		testIntro = [{'text'=>"This is line 1","proc"=>nil},{'text'=>"This is line 2","proc"=>nil}]
