@@ -195,7 +195,7 @@ class Scene_Battle
     update_phase4_step5_multi_hit_later
 
       if @active_battler.current_action.kind == 1
-        if BlizzCFG::SKILL_RANDOM.include?(@skill.id)
+        if !@skill.nil? && BlizzCFG::SKILL_RANDOM.include?(@skill.id)
           if @active_battler.is_a?(Game_Actor)
             @active_battler.current_action.decide_random_target_for_actor
           elsif @active_battler.is_a?(Game_Enemy)
