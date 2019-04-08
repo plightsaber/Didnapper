@@ -3059,7 +3059,7 @@ class Minimap < Sprite
           @sevents[i].y = self.y + @events[i].real_y / 16
           @sevents[i].ox, @sevents[i].oy = self.ox, self.oy
           if @names[i] != '' && (@events[i].is_a?(Game_Player) ||
-              @events[i].is_a?(Game_Member) ||
+              (defined?(Game_Member) && @events[i].is_a?(Game_Member)) ||
               !@events[i].name.clone.gsub!('\box') {''})
             @sevents[i].src_rect.set((@events[i].direction - 2) * 7, 0, 14, 14)
             @sevents[i].ox += 3
@@ -3095,7 +3095,7 @@ class Minimap < Sprite
             sprite.bitmap.blt(0, 0, $tons_cache.get_image('green_arrow'), rect, 128)
           end
           sprite.z = 100
-        elsif @events[i].is_a?(Game_Member)
+        elsif defined?(Game_Member) && @events[i].is_a?(Game_Member)
           if @names[i] != ''
             sprite.bitmap = Bitmap.new(56, 14)
             sprite.bitmap.blt(0, 0, $tons_cache.get_image('blue_arrow'), rect, 128)
@@ -5301,3 +5301,4 @@ class Game_Battler
   end
   
 end
+
