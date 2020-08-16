@@ -155,7 +155,7 @@
   },
   "114": {
     "typeName": "RPG::MapInfo",
-    "expanded": false,
+    "expanded": true,
     "name": "Kitchen",
     "order": 333,
     "parent_id": 46,
@@ -452,7 +452,7 @@
   },
   "144": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Living Quarters",
     "order": 19,
     "parent_id": 39,
@@ -704,7 +704,7 @@
   },
   "17": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "MAP017",
     "order": 358,
     "parent_id": 16,
@@ -1302,7 +1302,7 @@
     "name": "Guild Captives' Cell - ruined",
     "order": 27,
     "parent_id": 209,
-    "scroll_x": 401,
+    "scroll_x": 480,
     "scroll_y": 240
   },
   "23": {
@@ -2004,7 +2004,7 @@
     "name": "Piper Oak Village",
     "order": 422,
     "parent_id": 28,
-    "scroll_x": 982,
+    "scroll_x": 981,
     "scroll_y": 1461
   },
   "30": {
@@ -2139,7 +2139,7 @@
     "name": "Desert NE",
     "order": 216,
     "parent_id": 306,
-    "scroll_x": 1110,
+    "scroll_x": 1109,
     "scroll_y": 618
   },
   "313": {
@@ -2580,7 +2580,7 @@
     "name": "Florian",
     "order": 240,
     "parent_id": 0,
-    "scroll_x": 6870,
+    "scroll_x": 6869,
     "scroll_y": 1387
   },
   "358": {
@@ -2765,7 +2765,7 @@
   },
   "376": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Florian 2-1 (casino)",
     "order": 262,
     "parent_id": 375,
@@ -2801,7 +2801,7 @@
   },
   "38": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Guild Captives' Cell",
     "order": 17,
     "parent_id": 39,
@@ -3171,7 +3171,7 @@
   "416": {
     "typeName": "RPG::MapInfo",
     "expanded": false,
-    "name": "Pologue - Wagon interior",
+    "name": "Prologue - Wagon interior",
     "order": 316,
     "parent_id": 414,
     "scroll_x": 320,
@@ -3180,7 +3180,7 @@
   "417": {
     "typeName": "RPG::MapInfo",
     "expanded": false,
-    "name": "Pologue - Wagon interiorSmall",
+    "name": "Prologue - Wagon interiorSmall",
     "order": 317,
     "parent_id": 414,
     "scroll_x": 320,
@@ -3674,7 +3674,7 @@
   },
   "467": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Storage",
     "order": 245,
     "parent_id": 387,
@@ -4214,7 +4214,7 @@
   },
   "520": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Outskirts 1",
     "order": 531,
     "parent_id": 463,
@@ -4592,7 +4592,7 @@
   },
   "559": {
     "typeName": "RPG::MapInfo",
-    "expanded": true,
+    "expanded": false,
     "name": "Slaver Camp (Backup)",
     "order": 476,
     "parent_id": 358,
@@ -4750,7 +4750,7 @@
     "order": 65,
     "parent_id": 0,
     "scroll_x": 608,
-    "scroll_y": 940
+    "scroll_y": 759
   },
   "66": {
     "typeName": "RPG::MapInfo",

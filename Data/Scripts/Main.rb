@@ -21,7 +21,8 @@ begin
   $scene = Scene_Movie.new("IntroO")
 =end
  if RUBY_PLATFORM.include? "mswin"
-    Graphics.play_movie( "Movies/IntroR.wmv" )
+    # TODO: Restore movie play here.  I just got tired of skipping it.
+    #Graphics.play_movie( "Movies/IntroR.wmv" )
   end
   $scene = Scene_Title.new
   # Call main method as long as $scene is effective

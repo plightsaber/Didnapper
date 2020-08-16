@@ -11513,6 +11513,16 @@
           "list": [
             {
               "typeName": "RPG::EventCommand",
+              "code": 319,
+              "indent": 0,
+              "parameters": [
+                1,
+                0,
+                13
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 104,
               "indent": 0,
               "parameters": [

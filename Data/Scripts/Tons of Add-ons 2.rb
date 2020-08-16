@@ -5301,4 +5301,3 @@ class Game_Battler
   end
   
 end
-

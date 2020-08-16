@@ -631,7 +631,7 @@
       "zsize": 1
     },
     "weapon_fix": false,
-    "weapon_id": 13
+    "weapon_id": 0
   },
   {
     "typeName": "RPG::Actor",
